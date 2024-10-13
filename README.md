@@ -8,8 +8,6 @@ Week 6 Assignment 수행을 목적으로 만들어진 문서입니다.
 이 글에서는 위 강좌의 **Week 4 & 5**에서
 어떤 **Assignment**를 수행했는지에 대해 알아볼 것입니다.
 
-\
-
 ---
 
 ### 2. Week 4
@@ -30,4 +28,22 @@ Week 6 Assignment 수행을 목적으로 만들어진 문서입니다.
 
 #### 2-2. Week 4 Assignment
 Week 4의 Assignment는 다음과 같습니다.
->Google Colab내에서 주어진 문제를 풀 코드를 작성해라.
+>Google Colab내에서 주어진 문제를 풀 코드를 작성한다.
+
+문제의 설명과 해결 코드를 아래에 적어두었습니다.
+
+```
+#Task
+  Complete isHappy function following the description below
+
+#Happy Number
+Write an algorithm to determine if a number n is happy.
+
+A happy number is a number defined by the following process:
+- Starting with any positive integer, replace the number by the sum of the squares of its digits.
+- Repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1.
+- Those numbers for which this process ends in 1 are happy.
+Return **true** if n is a happy number, and **false** if not.
+
+Constraints: 1 <= n <= 2^31 -1
+```
