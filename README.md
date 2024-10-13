@@ -93,7 +93,7 @@ def isHappy(n):
 
 ### 3. Week 5
 #### 3-1. Container & Docker
-docker에 대해 아직 정확하게 이해하지 못해, 이해한 내용만 정리했습니다.
+_docker에 대해 아직 정확하게 이해하지 못해, 이해한 내용만 정리했습니다._
 
 
 **컨테이너**(Container)는 **가상화(Virtualization, OS-level)** 방식의 한 종류에서 나타난 개념입니다.
@@ -122,8 +122,9 @@ Week 5의 Assignment는 다음과 같습니다.
 >
 > 다음 요소들을 만족하는 container 환경을 조성한다.
 
-예...
-\
+_예..._
+
+
 다음 팁을 따라 Assignment를 완료하였습니다.
 > - Linux OS
 >   - 'ubuntu'(또는 'ossp') 기반의 image를 이용해라.
