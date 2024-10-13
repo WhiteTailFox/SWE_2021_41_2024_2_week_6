@@ -52,9 +52,7 @@ Constraints: 1 <= n <= 2^31 -1
 ```
 isHappy가 다음 설명을 만족하도록 함수를 완성한다.
 
-Happy Number
-
-수 n이 happy number인지 판단하는 알고리즘을 작성한다.
+수 n이 happy number인지 판단하는 함수를 완성한다.
 
 happy number는 다음과 같은 과정을 통해 정의된다 :
   - 임의의 양의 정수로 시작해서, 그 수의 각 자릿수의 제곱의 합을 구한다.
@@ -92,3 +90,41 @@ def isHappy(n):
   #(n in memory)
   return False
 ```
+
+### 3. Week 5
+#### 3-1. Container & Docker
+docker에 대해 아직 정확하게 이해하지 못해, 이해한 내용만 정리했습니다.
+\
+**컨테이너**(Container)는 **가상화(Virtualization, OS-level)** 방식의 한 종류에서 나타난 개념입니다.
+\
+기존 OS 위에 여러 OS를 실행하는 가상화 플랫폼의 형태가 많이 사용되었지만, 여러 OS의 실행히 굉장히 **무겁다**는 단점이 있습니다.
+\
+이에 반해 **Container(단위 개념)** 로 application들을 묶은 가상화 방식은 본 OS 위에서 여러 개의 독립적인 App들을 실행할 수 있어, **자원 활용**이나 **독립적인 App사용**에 있어서 더 **효율적**입니다.
+그리고.. **도커(Docker)** 가 바로 이런 가상화 환경을 만들도록 돕는 도구입니다.
+\
+**이미지(Image)** 라는 개념이 있습니다. 간단히 말해서 Container를 만들기 위한 청사진 정도로 보면 될 것 같습니다.
+**Docker hub**가 바로 이러한 이미지들을 다운로드 할 수 있는 저장소이고요.
+
+#### 3-2. Week 5 Assignment
+Week 5의 Assignment는 다음과 같습니다.
+>후에 본 과목에서 있을 실습을 위해 container 환경을 set up한다.
+>
+>이 환경은 다음 요소들을 요구한다.
+>> 1. Linux OS
+>> 2. Git
+>> 3. Python3
+>> 4. bind mount
+>
+> 다음 요소들을 만족하는 container 환경을 조성한다.
+
+예...
+\
+다음 팁을 따라 Assignment를 완료하였습니다.
+> - Linux OS
+>   - 'ubuntu'(또는 'ossp') 기반의 image를 이용해라.
+> - Git & Python installation & check
+>   - 'apt-get install -y git python3' 명령어를 이용해여 설치할 수 있다.
+>   - 'git --version'과 'python3 --version'명령어로 두 개의 버전을 출력 성공적으로 설치되었는지 확인한다.
+> - Bind mount
+>   - docker inspect --format="{{ .HostConfig.Binds }}" <container_name>’ 명령어를 입력하면 특정 container에 지정된 directory의 경로를 확인한다.
+>   - 출력 형식은 [<host_directory_path>:<container_directory_path>]과 같다.
