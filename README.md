@@ -32,6 +32,10 @@ Week 4의 Assignment는 다음과 같습니다.
 
 문제의 설명과 해결 코드를 아래에 적어두었습니다.
 
+\
+
+######문제 설명
+
 ```
 #Task
   Complete isHappy function following the description below
@@ -63,4 +67,33 @@ happy number가 맞다면 true, 아니라면 false를 반환한다.
 
 * 1 <= n <= 2^31 - 1
 
+```
+
+\
+
+###### 해결 코드
+```python
+def isHappy(n):
+  memory = set()
+  digits = []
+
+  while not(n in memory):
+    memory.add(n)
+
+    while (1):
+      digits.append(n % 10)
+      if(n // 10 == 0):
+        break
+      else:
+        n = n // 10
+
+    n = 0
+    for i in digits:
+      n += i * i
+
+    if(n == 1):  return True
+    else:
+      del digits[:]
+  #(n in memory)
+  return False
 ```
