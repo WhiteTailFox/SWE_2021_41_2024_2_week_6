@@ -65,9 +65,7 @@ happy number가 맞다면 true, 아니라면 false를 반환한다.
 * 1 <= n <= 2^31 - 1
 
 ```
-
-\
-
+    
 ###### 해결 코드
 ```python
 def isHappy(n):
