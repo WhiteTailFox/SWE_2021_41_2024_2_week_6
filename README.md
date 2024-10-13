@@ -25,3 +25,7 @@ Week 6 Assignment 수행을 목적으로 만들어진 문서입니다.
 - 무료로 제공되는 GPU를 자원*Resource*으로 사용할 수 있다.
 - 모든 웹 브라우저에서 쉽게 접근할 수 있다.
 - 다른 사람들과 코드를 수정하거나 실행하여 협업을 하기 쉽다.
+
+#### 2-2. Week 4 Assignment
+Week 4의 Assignment는 다음과 같습니다.
+>Google Colab내에서 주어진 문제를 풀 코드를 작성해라.
