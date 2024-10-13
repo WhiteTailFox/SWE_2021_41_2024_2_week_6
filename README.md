@@ -142,4 +142,5 @@ Week 5의 Assignment는 다음과 같습니다.
 >   - docker inspect --format="{{ .HostConfig.Binds }}" <container_name>’ 명령어를 입력하면 특정 container에 지정된 directory의 경로를 확인한다.
 >   - 출력 형식은 [<host_directory_path>:<container_directory_path>]과 같다.
 
-
+##### Assignment 제출 자료
+> ![Week5AssignmentImage](./2024312475_ossp_week5_3.png)
