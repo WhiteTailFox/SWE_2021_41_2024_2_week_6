@@ -13,6 +13,7 @@ Week 6 Assignment 수행을 목적으로 만들어진 문서입니다.
 ### 2. Week 4
 #### 2-1. Google Colab (Jupyter Notebook)
 > [Google Colab](https://colab.research.google.com "Google Colab") // 구글 코랩으로 이동하는 링크
+
 **Google Colab**은 구글이 무료로 **Jupyter NoteBook**을 **클라우드** 기반에서 사용할 수 있게 만든 사이트입니다.
 \
 많은 사람들이 이곳에서 협업, 데이터 분석, 머신러닝 학습 등을 하며, 글쓴이는 코드를 작성하여 Assignment를 풀었습니다.
