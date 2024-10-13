@@ -10,7 +10,6 @@ Week 6 Assignment 수행을 목적으로 만들어진 문서입니다.
 
 ---
 \
-\
 
 ### 2. Week 4
 #### 2-1. Google Colab (Jupyter Notebook)
